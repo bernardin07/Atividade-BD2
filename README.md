@@ -2,7 +2,7 @@ README – Atividade SQL (Views, Tabelas, Trigger, Função e Procedure)
 
 Este documento descreve o passo a passo da construção dos objetos SQL solicitados: VIEW, TABELA, TRIGGER, FUNÇÃO e PROCEDURE, seguindo os itens de A a G.
 
-🅰️ A) Criação da VIEW
+A) Criação da VIEW
 
 Criar uma view com as seguintes informações:
 
@@ -16,12 +16,12 @@ estoqueTotal = quantityOrdered + quantityInStock
 
 A view deve agrupar corretamente a quantidade vendida.
 
-🅱️ B) Criar uma tabela baseada na VIEW
+B) Criar uma tabela baseada na VIEW
 
 Gerar uma nova tabela copiando os resultados da view criada no passo A.
 Essa tabela será utilizada para cálculos e auditorias.
 
-🅲 C) Criar tabela de auditoria
+C) Criar tabela de auditoria
 
 Criar uma tabela para monitorar alterações realizadas na tabela criada na letra B.
 
@@ -43,12 +43,12 @@ observacao
 
 Esses campos serão atualizados pela procedure.
 
-🅴 E) Trigger de auditoria
+E) Trigger de auditoria
 
 Criar uma trigger que execute sempre que um registro da tabela da letra B for atualizado.
 A trigger deve inserir uma descrição da alteração na tabela de auditoria.
 
-🅵 F) Função de cálculo do percentual vendido
+F) Função de cálculo do percentual vendido
 
 Criar uma função que receba:
 
@@ -59,7 +59,8 @@ estoqueTotal
 e retorne:
 
 percentual = (totalDeProdutoVendidos / estoqueTotal) * 100
-🅶 G) Procedure – Processamento e atualização de estoque
+
+G) Procedure – Processamento e atualização de estoque
 
 A procedure deve seguir o fluxo:
 
